@@ -1,0 +1,91 @@
+body {
+  text-align: center;
+}
+
+.mainContainer {
+  width: 431px;
+  height: 768px;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+}
+
+.bird {
+  width: 51px;
+  height: 36px;
+}
+
+.secondBird {
+  transform: rotate(45deg);
+}
+
+.score {
+  display: block;
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  font-family: 'Press Start 2P' , sans-serif;
+  color: black;
+  position: absolute;
+  top: 10px;
+}
+
+.bestScore {
+  right: 0;
+}
+
+.scoreTable {
+  display: none;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  width: 200px;
+  height: 100px;
+  font-size: 20px;
+  font-family: 'Press Start 2P' , sans-serif;
+  color: black;
+  position: absolute;
+  background-color: burlywood;
+  top: 350px;
+  left: 123px;
+}
+
+.button {
+  display: none;
+  background-color: white;
+  border-radius: 8px;
+  border: 4px goldenrod solid;
+  padding: 10px;
+  width: 150px;
+  height: 50px;
+  font-family: 'Luckiest Guy', sans-serif;
+  font-size: 24px;
+  color: goldenrod;
+  position: absolute;
+  bottom: 250px;
+  right: 133px;
+  cursor: pointer;
+}
+
+.end-game {
+  display: none;
+  background-color: lightgrey;
+  border: 4px darkgray solid;
+  width: 150px;
+  position: absolute;
+  bottom: 193px;
+  right: 133px;
+  color: black;
+}
+
+.start-button {
+  display: block;
+  position: absolute;
+  top: 350px;
+  left: 150px;
+  cursor: pointer;
+}
+
+.invisible {
+  display: none;
+}
